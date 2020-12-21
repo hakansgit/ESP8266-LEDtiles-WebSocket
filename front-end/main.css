@@ -1,0 +1,24 @@
+/* .jumbotron { min-height: 100px; } */
+
+.container {
+    margin-top: 30px;
+}
+
+#panels-svg {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+
+}
+
+.wheel {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#picker {
+    width: 80%;
+    touch-action: none;
+    display: inline-block;
+}
