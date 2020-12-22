@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hakan's Lights</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.0.2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Hi there!</h2>
+                <h5>Click on a tile, then pick a color</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <svg id="panels-svg" viewBox="-2 -2 500 272" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <title>LED Panels</title>
+                        <g id="lights">
+                            <path class="panel" id="panel0" pn="0"
+                                d="m0,123.07142l29.78572,-59.57142l79.42857,0l29.78571,59.57142l-29.78571,59.57142l-79.42857,0l-29.78572,-59.57142z"
+                                stroke-width="4" stroke="#BBBBBB" fill="#fff" />
+                            <path class="panel" id="panel1" pn="1"
+                                d="m118,59.57142l29.78572,-59.57142l79.42857,0l29.7857,59.57142l-29.7857,59.57142l-79.42857,0l-29.78572,-59.57142z"
+                                stroke-width="4" stroke="#BBBBBB" fill="#fff" />
+                            <path class="panel" id="panel2" pn="2"
+                                d="m236,123.07142l29.78572,-59.57142l79.42857,0l29.7857,59.57142l-29.7857,59.57142l-79.42857,0l-29.78572,-59.57142z"
+                                stroke-width="4" stroke="#BBBBBB" fill="#fff" />
+                            <path class="panel" id="panel3" pn="3"
+                                d="m354,59.57142l29.78572,-59.57142l79.42857,0l29.7857,59.57142l-29.7857,59.57142l-79.42857,0l-29.78572,-59.57142z"
+                                stroke-width="4" stroke="#BBBBBB" fill="#fff" />
+                            <path class="panel" id="panel4" pn="4"
+                                d="m118,208.662l29.78572,-59.57142l79.42857,0l29.7857,59.57142l-29.7857,59.57142l-79.42857,0l-29.78572,-59.57142z"
+                                stroke-width="4" stroke="#BBBBBB" fill="#fff" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-sm-6">
+                <div class="wheel">
+                    <canvas id="picker"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function() {
+           init();
+        })();
+        </script>
+</body>
+
+</html>
